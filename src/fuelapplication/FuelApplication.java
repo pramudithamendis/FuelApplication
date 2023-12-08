@@ -34,7 +34,7 @@ public class FuelApplication {
 
         Statement st = con.createStatement();
         st.executeUpdate("insert into table2 values(201)");
-        System.out.println("Connected to db with Fuel application");
+        System.out.println("Connected to db with Fuel application.");
         }catch(Exception e){
             System.out.println(e);
         }
