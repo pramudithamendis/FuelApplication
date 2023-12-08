@@ -33,7 +33,10 @@ public class FuelApplication {
         Connection con = DriverManager.getConnection(url, uname, pas);
 
         Statement st = con.createStatement();
-        st.executeUpdate("insert into table2 values(201)");
+        st.executeUpdate("insert into table2 values(203)");
+//            st.executeUpdate("delect from table2");
+        
+        
         System.out.println("Connected to db with Fuel application.");
         }catch(Exception e){
             System.out.println(e);
